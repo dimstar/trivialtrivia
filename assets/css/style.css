@@ -21,3 +21,7 @@ input[type=radio] {
 #getStarted {
     margin: 1em 0;
 }
+
+#main {
+    margin-top: 1em;
+}
