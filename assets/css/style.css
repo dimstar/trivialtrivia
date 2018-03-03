@@ -1,1 +1,14 @@
 /* Code for trivial trivia */
+
+input[type=radio] {
+    display: none;
+}
+
+.question {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.question label.btn:nth-child(1), .question label.btn:nth-child(2) {
+    border-right: 2px solid white !important;
+}

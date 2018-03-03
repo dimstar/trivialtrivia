@@ -1,16 +1,133 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Quiz Show</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Boolean Quiz Show</h1>
+                <h2>Welcome to Quiz Show, Computer Edition!</h2>
+                <div id="timer"></div>
+            </div>
+            <div class="col-sm-12">
+                    <p>
+                        <a id="getStarted" class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Get Started
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <div id="one" class="question">
+                                    <h4>Regarding data storage, what does the acronym SSD stand for?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="Single Socket Device"> Single Socket Device
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="Solid State Drive"> Solid State Drive
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Sure Shot Dude"> Sure Shot Dude
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div id="two" class="question">
+                                    <h4>What was the first console video game that allowed the game to be saved?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="Pong"> Pong
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="The Legend of Zelda"> The Legend of Zelda
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Dragon Quest"> Dragon Quest
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div id="three" class="question">
+                                    <h4>Created in 2009, what was the first decentralized cryptocurrency?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="CryptoBytes"> CryptoBytes
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="Silk Road Samolians"> Silk Road Samolians
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Bitcoin"> Bitcoin
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div id="four" class="question">
+                                    <h4>What does the acronym USB stand for when referring to a computer port?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="Uncommon Stop Byte"> Uncommon Stop Byte
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="Universal Serial Bus"> Universal Serial Bus
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Under Supported Bungle"> Under Supported Bungle
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div id="five" class="question">
+                                    <h4>When referring to a computer monitor, what does the acronym LCD stand for?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="Liquid Crystal Display"> Liquid Crystal Display
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="Lydar Conical Display"> Lydar Conical Display
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Look Cool Display"> Look Cool Display
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div id="six" class="question">
+                                    <h4>When talking about computer memory, what does the acronym ROM stand for?</h4>
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" value="Rightiously Outrageous Memory"> Rightiously Outrageous Memory
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" value="Read-only Memory"> Read-only Memory
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off" value="Random Operating Memory"> Random Operating Memory
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <p>
+                                    <a id="getStarted" class="btn btn-success" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        I'm Done!
+                                    </a>
+                                </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
