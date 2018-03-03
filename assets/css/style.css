@@ -17,3 +17,7 @@ input[type=radio] {
     font-size: 24px;
     color: red;
 }
+
+#getStarted {
+    margin: 1em 0;
+}

@@ -18,7 +18,7 @@ var quizShow = {
     goodAnswers: 0,
     badAnswers: 0,
     unAnswers: 0,
-    countDown: 120,
+    countDown: 60,
     answers: {
         'one': 'Solid State Drive',
         'two': 'The Legend of Zelda',
