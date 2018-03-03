@@ -12,3 +12,8 @@ input[type=radio] {
 .question label.btn:nth-child(1), .question label.btn:nth-child(2) {
     border-right: 2px solid white !important;
 }
+
+#timer {
+    font-size: 24px;
+    color: red;
+}
